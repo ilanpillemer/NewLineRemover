@@ -1,0 +1,9 @@
+#Mon Jan 19 13:58:11 EST 2015
+srcTextAnalyticsPath=[P]textAnalytics/src
+general.provenance=true
+pagination.isEnabled=true
+tamTextAnalyticsPath=[P]textAnalytics/bin
+searchPath.dataPath=[W]/MultiLine
+UseModularAQL=true
+pagination.numFilesPerPage=50
+langWare.tokenizerChoice=1
