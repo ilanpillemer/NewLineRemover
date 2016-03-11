@@ -6,13 +6,17 @@ This project is a Mapreduce program on the input folder removing all new line ch
 New line characters in database text fields is a common data preparation problem.
 This mapreduce program uses a custom Record Reader to remove any new line characters between quotes "
 I.e. Text files like 
+
 1,"Ben","Ben was working
 on our cluster"
+
 2,"Karl","Karl is an hadoop engineer"
 ...
 
 Would be translated to
+
 1,"Ben","Ben was working on our cluster"
+
 2,"Karl","Karl is an hadoop engineer"
 
 To use a different quote character than " set the QUOTE value in the QuotationLineReader
