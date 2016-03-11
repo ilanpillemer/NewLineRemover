@@ -16,7 +16,7 @@ on our cluster"
 
 Would be translated to
 
-1,"Ben","Ben was working on our cluster"
+1,"Ben","Ben was working\n on our cluster"
 
 2,"Karl","Karl is an hadoop engineer"
 
