@@ -8,6 +8,7 @@ This mapreduce program uses a custom Record Reader to remove any new line charac
 I.e. Text files like 
 
 1,"Ben","Ben was working
+
 on our cluster"
 
 2,"Karl","Karl is an hadoop engineer"
@@ -20,8 +21,11 @@ Would be translated to
 2,"Karl","Karl is an hadoop engineer"
 
 To use a different quote character than " set the QUOTE value in the QuotationLineReader
+
 private static final byte QUOTE = '\"';
 
 To change the way newline characters are handled change the processing in the mapper. Currently they are escaped. Removing them would also be valid.
+
 line = line.replaceAll("\n", "\\n");
+
 line = line.replaceAll("\r", "\\r");
