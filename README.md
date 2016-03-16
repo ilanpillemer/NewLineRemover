@@ -26,6 +26,6 @@ private static final byte QUOTE = '\"';
 
 To change the way newline characters are handled change the processing in the mapper. Currently they are escaped. Removing them would also be valid.
 
-line = line.replaceAll("\n", "\\n");
+line = line.replaceAll("\n", "\\\\n");
 
-line = line.replaceAll("\r", "\\r");
+line = line.replaceAll("\r", "\\\\r");
