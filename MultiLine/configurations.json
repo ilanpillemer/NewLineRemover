@@ -1,0 +1,8 @@
+[
+  {
+    "Classification": "mapred-site",
+    "Properties": {
+      "mapred.child.java.opts": "-Xmx4096m"
+    }
+  }
+]
